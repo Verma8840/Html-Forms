@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First <Form></Form></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="//action.php">
+    <h3>SighUp Form</h3><hr>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" ><br><br>
+        <label for="fname">Last name:</label>
+        <input type="text" id="lname" name="lname" ><br><br>
+        
+
+        <label for="number">Contact N:</label>
+        <input type="text" name="number"><br><br>
+        
+        <p>Select gender:</p>
+        <label for="gname">
+        <input type="radio" value="male" name="gender">Male
+        <input type="radio" value="female" name="gender">female
+        </label><br><br>
+
+
+        <p>Select your subject:</p><br>
+        <label for="math">
+            <input type="checkbox" name="math" value="subject" id="10">Math
+        </label>
+        <label for="physics">
+            <input type="checkbox" name="physics" value="subject" id="10">Physics
+        </label>
+        <label for="chemitry">
+            <input type="checkbox" name="math" value="subject" id="10">Chemistry
+        </label>
+        <label for="english">
+            <input type="checkbox" name="math" value="subject" id="10">English
+        </label><br><br>
+
+
+
+        
+        <p>Select City:</p>
+       <select name="city">
+           <option value="delhi">Delhi</option>
+           <option value="meerut">Meerut </option>
+           <option value="lucknow">Locknow</option>
+           <option value="noida">Noida</option>
+
+       </select>
+
+        <p>Give Feedback:</p>
+        <textarea name="feedback"  placeholder="give some valuable feedback">Feedback</textarea>
+       
+
+        <br>
+       <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>

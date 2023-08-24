@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(127, 159, 160);
+    margin-top: 50px;
+    margin-left: 100px;
+    
+    
+}
+p{
+color:red
+}
+textarea{
+    height: 100px;
+    width: 200px;
+}
