@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(165, 180, 29);
+    text-align: center;
+}
+form{
+    background-color: rgb(209, 10, 10);
+    width: 400px;
+    margin: 100px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
